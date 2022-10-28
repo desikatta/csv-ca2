@@ -1,0 +1,17 @@
+c=0
+b="yes"
+while b=="yes":
+    a=int(input("enter a intiger:"))
+    if(a==-1):
+        print("-1 detected")
+        break
+    elif(a<0):
+        pass
+    elif(a>0):
+        c=c+1
+    else:
+        print("invalid input")
+
+print("total number of positive intiger is",c)
+    
+        

@@ -1,0 +1,16 @@
+a=[6,7,13,14,20,21,27,28]
+c=int(input(""))
+if(c>=1 and c<=1000):
+    for i in range(c):
+        b=8
+        d=int(input(""))
+        if(d>=1 and d<=30):
+            e=input("").split()
+            for j in range(d):
+                if(int(e[j])>=1 and int(e[j])<=30):
+                    if(int(e[j])in a):
+                        b=b
+                    elif(int(e[j]not in a)):
+                        b=b+1
+            print(b)
+        

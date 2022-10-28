@@ -1,0 +1,22 @@
+import random
+DICE1=(random.randint(1,6))
+DICE2=(random.randint(1,6))
+sum1=DICE1+DICE2
+if(sum1==7 or sum1==11):
+    print("player win")
+    break
+elif(sum1==2 or sum1==3 or sum1==12):
+    print("home win")
+    break
+elif(sum1==4 or sum1==5 or sum1==6 sum1==8 or sum1==9 or sum1==10):
+    while True:
+        dice1=random.randint(1,6)
+        dice2=random.randint(1,6)
+        sum2=dice1+dice2
+        if(sum1==sum2):
+            print("print player win")
+            break
+        elif(sum2==7):
+            print("addition is 7 player looses")
+            break
+   

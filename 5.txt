@@ -1,0 +1,19 @@
+a=int(input("Enter your account no.:"))
+b=int(input("Enter your customer code:"))
+c=int(input("Enter your no. of premium channel you are using:"))
+d=input("a-residential or b-business:")
+if(d=='a'):
+    e=(c*7.5)+25
+    print("account no. is",a,"bill total is $",e)
+elif(d=='b'):
+    g=int(input("enter the no. of conection:"))
+    if(g>10):
+        f=((c*50)+75)+(g-10)*5
+        print("account no. is",a,"bill total is $",f)
+    elif(g<=10):
+        h=((c*50)+75)
+        print("account no. is",a,"bill total is $",h)
+    else:
+        print("invalid input")
+else:
+    print("invalid input")

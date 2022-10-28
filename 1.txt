@@ -1,0 +1,10 @@
+x=[10,20,30]
+y=[10,25,35,45]
+z=[]
+for i in x:
+   for j in y:
+        if(i!=j):
+            z.append([i,j])
+print(z)        
+       
+    
