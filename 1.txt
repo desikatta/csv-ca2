@@ -5,6 +5,8 @@ for i in x:
    for j in y:
         if(i!=j):
             z.append([i,j])
-print(z)        
+print(z)  
+print(i)
+print(x)      
        
     
